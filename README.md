@@ -4,6 +4,7 @@ An uber eats like application written using flutter.
 The app embed a google map like GPS for the driver.
 The project has only been test on an android simulator
 It needs to configure firebase for iOS.
+
 ## Generate Json
 
 ``` flutter packages pub run build_runner build```

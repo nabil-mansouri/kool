@@ -17,7 +17,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="food"
         android:icon="@mipmap/ic_launcher">
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA0Z70n0ud4hiiRHm3CLxv7rl4P-kgLS1I"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value=""/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
