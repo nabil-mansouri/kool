@@ -1,0 +1,154 @@
+products:
+  - id: salade-ceasar
+    name: Salade Ceasar
+    description:
+    priceCents: 695
+    rating: 3.0
+    available: true
+    categories: [Salade]
+    tags: [salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+    groups:
+      - id: viande
+        name: Viande
+        minSelection: 1
+        maxSelection: 1
+        mandatory: true
+        available: true
+        items:
+          - id: boeuf
+            name: Coeur du boeuf
+            priceCents: 300
+            available: true
+          - id: poulet
+            name: Escalope de poulet
+            priceCents: 0
+            available: true
+          - id: steak
+            name: Viande Haché
+            priceCents: 0
+            available: true
+          - id: agneau
+            name: Viande d'Agneau
+            priceCents: 3
+            available: false
+      - id: sauces
+        name: Sauces
+        minSelection: 0
+        maxSelection: 3
+        available: true
+        items:
+          - id: tartare
+            name: Sauce Tartare
+            priceCents: 300
+            available: true
+          - id: blanche
+            name: Sauce Blanche
+            priceCents: 0
+            available: true
+          - id: soja
+            name: Sauce Soja
+            priceCents: 0
+            available: true
+          - id: maison
+            name: Sauce Maison
+            priceCents: 300
+            available: false
+      - id: vinaigrette
+        name: Vinaigrette
+        minSelection: 0
+        maxSelection: 1
+        available: false
+        items:
+          - id: chinoise
+            name: Vinaigrette Chinoise
+            priceCents: 300
+            available: false
+  - id: salade-italienne
+    name: Salade Italienne
+    description:
+    priceCents: 605
+    rating: 4.0
+    available: false
+    categories: [Salade]
+    tags: [salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: tandoori
+    name: Tandoori
+    description:
+    priceCents: 400
+    rating: 4.0
+    available: true
+    categories: [Salade,Sandwich]
+    tags: [salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: fish-and-ships
+    name: Fish & Ships
+    description:
+    priceCents: 895
+    rating: 5.0
+    available: true
+    categories: [Salade, Sandwich]
+    tags: [burger, salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: poulet-maison
+    name: Poulet Maison à la bolognaise et sauce blanche
+    description: Steack 100g, boursin, bacon, oignons frits, tomates confits. Salade tomate et oignons avec sauce à l'ail et fines herbes.
+    priceCents: 1095
+    rating: 4.0
+    available: true
+    categories: [Sandwich]
+    tags: [burger, salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: steack-and-frites
+    name: Steak'n Frites à la Française
+    description: Steack 100g, boursin, bacon, oignons frits, tomates confits. Salade tomate et oignons avec sauce à l'ail et fines herbes.
+    priceCents: 1195
+    rating: 3.0
+    available: true
+    categories: [Sandwich]
+    tags: [burger, salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: tacos
+    name: Tacos
+    description: Excellent tacos double sauces et frites cheddar.
+    priceCents: 500
+    rating: 1.5
+    available: false
+    categories: [Sandwich]
+    tags: [burger, salade]
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: yaourt-chocolat
+    name: Yaourt au Chocolat
+    description:
+    priceCents: 500
+    rating: 0.5
+    available: true
+    categories: [Yaourt]
+    tags: [yaourt]
+    image:
+  - id: glace-fraise
+    name: Glace à la fraise
+    description:
+    priceCents: 500
+    rating: 3.0
+    available: true
+    categories: [Yaourt]
+    tags: [yaourt]
+    image: 
+categories:
+  - id: Salade
+    name: Entrée et Salades
+    position: 0
+    description: Toutes nos entrées et salades
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: Sandwich
+    name: Sandwichs et Tacos
+    position: 1
+    description: Tout nos sandwichs et burgers
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
+  - id: Yaourt
+    name: Yaourts et Glaces
+    position: 2
+    description: Tout nos desserts
+    image: https://image.afcdn.com/recipe/20170105/24149_w1024h768c1cx2592cy1728.jpg
